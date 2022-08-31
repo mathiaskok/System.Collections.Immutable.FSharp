@@ -1,0 +1,1 @@
+dotnet nuget push "bin/release/System.Collections.Immutable.FSharp.1.0.0.nupkg" --source "github"
