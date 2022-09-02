@@ -8,7 +8,7 @@
     <Company />
     <PackageProjectUrl>https://github.com/mathiaskok/System.Collections.Immutable.FSharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mathiaskok/System.Collections.Immutable.FSharp</RepositoryUrl>
-    <ApplicationIcon>Icons\Icon_128.jpg</ApplicationIcon>
+    <ApplicationIcon>..\Icons\Icon_128.jpg</ApplicationIcon>
     <PackageIcon>Icon_128.jpg</PackageIcon>
     <Description>Various F# helpers and wrappers over the System.Collections.Immutable library.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -24,20 +24,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Icons\Icon_128.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Icons\Icon_128.jpg">
+    <None Include="..\Icons\Icon_128.jpg">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="README.md">
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
 
-    <None Include="LICENSE">
+    <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
