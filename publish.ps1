@@ -1,1 +1,3 @@
-dotnet nuget push "bin/release/System.Collections.Immutable.FSharp.1.0.0.nupkg" --source "github"
+Get-ChildItem -Path .\ -Filter *.nupkg -Recurse -File -Name| ForEach-Object {
+  dotnet nuget push $_ --source "github_mathiaskok"
+}
