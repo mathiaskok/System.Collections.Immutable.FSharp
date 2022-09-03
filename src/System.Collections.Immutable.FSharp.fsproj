@@ -8,8 +8,8 @@
     <Company />
     <PackageProjectUrl>https://github.com/mathiaskok/System.Collections.Immutable.FSharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mathiaskok/System.Collections.Immutable.FSharp</RepositoryUrl>
-    <ApplicationIcon>..\Icons\Icon_128.jpg</ApplicationIcon>
     <PackageIcon>Icon_128.jpg</PackageIcon>
+    <PackageIconUrl>https://raw.githubusercontent.com/mathiaskok/System.Collections.Immutable.FSharp/ed34c5b947d917dd09e550cf4f2ca3002fd6de6e/Icons/Icon_128.jpg</PackageIconUrl>
     <Description>Various F# helpers and wrappers over the System.Collections.Immutable library.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
